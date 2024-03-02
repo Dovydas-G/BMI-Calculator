@@ -1,0 +1,102 @@
+html {
+    /* 62.5 of 16px = 10px */
+    font-size: 62.5%;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50rem;
+    height: 50rem;
+    background-color: #c3e2c2;
+    gap: 1rem 0;
+    border-radius: 10px;
+
+
+}
+
+.labelHeight {
+    margin-right: 0.15rem;
+}
+
+.bmi-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0;
+    
+}
+
+.btn {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 7px;
+    border: transparent;
+    background-color: #cd8d7a;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.btn:hover {
+    background-color: #ca6e52;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.resultBox,
+.heightBox,
+.weightBox {
+    margin-right: 4.83rem;
+}
+
+.resultBox {
+    display: none;
+    width: 26.5rem;
+    height: 5rem;
+    align-items: center;
+    gap: 0 1rem;
+    border-radius: 5px;
+
+}
+
+
+.text-size {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.input-text {
+    text-align: end;
+    height: 3rem;
+    width: 17rem;
+    border-radius: 5px;
+    border: transparent;
+    background-color: #eaeccc;
+    padding: 0 2rem;
+   
+}
+
+.input-text:focus {
+    outline: 0;
+}
+
