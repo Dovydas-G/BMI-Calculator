@@ -10,7 +10,6 @@ body * {
     
 }
 
-
 .main{
     display: flex;
     height: 100vh;
@@ -28,8 +27,6 @@ body * {
     background-color: #c3e2c2;
     gap: 1rem 0;
     border-radius: 10px;
-
-
 }
 
 .labelHeight {
@@ -39,8 +36,7 @@ body * {
 .bmi-box {
     display: flex;
     flex-direction: column;
-    gap: 1rem 0;
-    
+    gap: 1rem 0;   
 }
 
 .btn {
@@ -51,7 +47,6 @@ body * {
     background-color: #cd8d7a;
     cursor: pointer;
     color: #fff;
-
 }
 
 .btn:hover {
@@ -75,7 +70,6 @@ body * {
     align-items: center;
     gap: 0 1rem;
     border-radius: 5px;
-
 }
 
 
@@ -93,7 +87,6 @@ body * {
     border: transparent;
     background-color: #eaeccc;
     padding: 0 2rem;
-   
 }
 
 .input-text:focus {

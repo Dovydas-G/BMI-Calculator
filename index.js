@@ -31,10 +31,11 @@ checkBtnDOM.addEventListener('click', function () {
         count = '';
 
     }else {
+            screenDOM.style.color = 'black';
+
         if (count < 18.5) {
             text += 'Underweight';
             screenDOM.style.backgroundColor = 'yellow'; 
-
         }
         else if (count < 25) {
             text += 'Normal';
