@@ -16,7 +16,7 @@ checkBtnDOM.addEventListener('click', function () {
     if (weight.length === 0 || height.length === 0) {
         count += 0;
     } else {
-        count += (+ ((weightNum) / (((heightNum) / 100) ** 2)).toFixed(1));
+        count += (+ ((weightNum) / (((heightNum) / 100) ** 2)).toFixed(2));
     }
     
     screenDOM.style.display = 'flex';
